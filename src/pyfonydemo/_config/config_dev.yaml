@@ -1,3 +1,11 @@
 parameters:
   foo:
     bar: "Hello world"
+
+services:
+  pyfonydemo.HelloWorldCommand:
+    arguments:
+      - "%foo.bar%"
+      - "@consolebundle.logger"
+    tags:
+      - console.command

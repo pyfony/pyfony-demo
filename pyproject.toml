@@ -13,6 +13,7 @@ authors = [
 [tool.poetry.dependencies]
 python = "3.8.8"
 pyfony-core = "^0.8.0"
+console-bundle = "^0.5.1"
 
 [pyfony.bootstrap]
 root_module_name = "pyfonydemo"
