@@ -24,6 +24,10 @@ or use a shortcut
 $ ca
 ```
 
-## Running hello world scritp
+## Running hello world script
 
 Run `python src/pyfonydemo/hello_world.py` to see "Hello world" printed on the screen.
+
+## Running hello world command
+
+Run `console pyfonydemo:say-hello` to see "Hello world" printed on the screen using a standard console logger.
